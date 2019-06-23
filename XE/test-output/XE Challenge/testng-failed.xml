@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [XE Challenge]" parallel="methods">
+  <test thread-count="1" name="Verify rent search results(failed)" parallel="methods">
+    <classes>
+      <class name="selenium.xeWebClientAutomation.realEstate.VerifySearchPageResults">
+        <methods>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="endTest"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="startTest"/>
+          <include name="springTestContextAfterTestMethod"/>
+          <include name="verifyPlusAds"/>
+        </methods>
+      </class> <!-- selenium.xeWebClientAutomation.realEstate.VerifySearchPageResults -->
+    </classes>
+  </test> <!-- Verify rent search results(failed) -->
+</suite> <!-- Failed suite [XE Challenge] -->

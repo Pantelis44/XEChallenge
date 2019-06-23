@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="XE Challenge" parallel="methods" thread-count="1">
+
+    <test name="Search rent adds"  parallel="methods" thread-count="1">
+        <classes>
+            <class name="selenium.xeWebClientAutomation.realEstate.SearchRentAds">
+            </class>
+        </classes>
+    </test>
+    <test name="Verify rent search results"  parallel="methods" thread-count="1">
+        <classes>
+            <class name="selenium.xeWebClientAutomation.realEstate.VerifySearchPageResults">
+            </class>
+        </classes>
+    </test>
+</suite>

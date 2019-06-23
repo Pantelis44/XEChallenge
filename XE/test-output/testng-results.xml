@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="XE Challenge" duration-ms="351661" started-at="2019-06-23T20:18:34Z" finished-at="2019-06-23T20:24:26Z">
+    <groups>
+    </groups>
+    <test name="Search rent adds" duration-ms="39637" started-at="2019-06-23T20:18:34Z" finished-at="2019-06-23T20:19:14Z">
+      <class name="selenium.xeWebClientAutomation.realEstate.SearchRentAds">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:selenium.xeWebClientAutomation.realEstate.SearchRentAds@53f65459]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="9" started-at="2019-06-23T20:18:34Z" finished-at="2019-06-23T20:18:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:selenium.xeWebClientAutomation.realEstate.SearchRentAds@53f65459]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="354" started-at="2019-06-23T20:18:34Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2019-06-23T20:18:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:selenium.xeWebClientAutomation.realEstate.SearchRentAds@53f65459]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="2" started-at="2019-06-23T20:18:35Z" finished-at="2019-06-23T20:18:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void selenium.xeWebClientAutomation.realEstate.SearchRentAds.searchPropertiesToRent()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="startTest()[pri:0, instance:selenium.xeWebClientAutomation.realEstate.SearchRentAds@53f65459]" name="startTest" is-config="true" duration-ms="6759" started-at="2019-06-23T20:18:35Z" finished-at="2019-06-23T20:18:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="searchPropertiesToRent()[pri:0, instance:selenium.xeWebClientAutomation.realEstate.SearchRentAds@53f65459]" name="searchPropertiesToRent" duration-ms="548" started-at="2019-06-23T20:18:42Z" description="Search properties to rent - verify results" finished-at="2019-06-23T20:18:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchPropertiesToRent -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:selenium.xeWebClientAutomation.realEstate.SearchRentAds@53f65459]" name="endTest" is-config="true" duration-ms="609" started-at="2019-06-23T20:18:42Z" finished-at="2019-06-23T20:18:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:selenium.xeWebClientAutomation.realEstate.SearchRentAds@53f65459]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2019-06-23T20:18:43Z" finished-at="2019-06-23T20:18:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void selenium.xeWebClientAutomation.realEstate.SearchRentAds.searchPropertiesToRent()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:selenium.xeWebClientAutomation.realEstate.SearchRentAds@53f65459]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2019-06-23T20:18:43Z" finished-at="2019-06-23T20:18:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void selenium.xeWebClientAutomation.realEstate.SearchRentAds.searchPropertiesToRentSelectAll()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="startTest()[pri:0, instance:selenium.xeWebClientAutomation.realEstate.SearchRentAds@53f65459]" name="startTest" is-config="true" duration-ms="5008" started-at="2019-06-23T20:18:43Z" finished-at="2019-06-23T20:18:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="searchPropertiesToRentSelectAll()[pri:1, instance:selenium.xeWebClientAutomation.realEstate.SearchRentAds@53f65459]" name="searchPropertiesToRentSelectAll" duration-ms="11313" started-at="2019-06-23T20:18:48Z" description="Search properties to rent - select all results - verify all remain selected" depends-on-methods="selenium.xeWebClientAutomation.realEstate.SearchRentAds.searchPropertiesToRent" finished-at="2019-06-23T20:18:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchPropertiesToRentSelectAll -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:selenium.xeWebClientAutomation.realEstate.SearchRentAds@53f65459]" name="endTest" is-config="true" duration-ms="633" started-at="2019-06-23T20:18:59Z" finished-at="2019-06-23T20:19:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:selenium.xeWebClientAutomation.realEstate.SearchRentAds@53f65459]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="2" started-at="2019-06-23T20:19:00Z" finished-at="2019-06-23T20:19:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void selenium.xeWebClientAutomation.realEstate.SearchRentAds.searchPropertiesToRentSelectAll()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:selenium.xeWebClientAutomation.realEstate.SearchRentAds@53f65459]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2019-06-23T20:19:00Z" finished-at="2019-06-23T20:19:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void selenium.xeWebClientAutomation.realEstate.SearchRentAds.searchToRentFillInPriceSQM()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="startTest()[pri:0, instance:selenium.xeWebClientAutomation.realEstate.SearchRentAds@53f65459]" name="startTest" is-config="true" duration-ms="6684" started-at="2019-06-23T20:19:00Z" finished-at="2019-06-23T20:19:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="searchToRentFillInPriceSQM()[pri:2, instance:selenium.xeWebClientAutomation.realEstate.SearchRentAds@53f65459]" name="searchToRentFillInPriceSQM" duration-ms="7075" started-at="2019-06-23T20:19:06Z" description="Search properties to rent - fill in price and sqm - verify transition to search results page" depends-on-methods="selenium.xeWebClientAutomation.realEstate.SearchRentAds.searchPropertiesToRentSelectAll" finished-at="2019-06-23T20:19:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchToRentFillInPriceSQM -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:selenium.xeWebClientAutomation.realEstate.SearchRentAds@53f65459]" name="endTest" is-config="true" duration-ms="611" started-at="2019-06-23T20:19:13Z" finished-at="2019-06-23T20:19:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:selenium.xeWebClientAutomation.realEstate.SearchRentAds@53f65459]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="2" started-at="2019-06-23T20:19:14Z" finished-at="2019-06-23T20:19:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void selenium.xeWebClientAutomation.realEstate.SearchRentAds.searchToRentFillInPriceSQM()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:selenium.xeWebClientAutomation.realEstate.SearchRentAds@53f65459]" name="springTestContextAfterTestClass" is-config="true" duration-ms="1" started-at="2019-06-23T20:19:14Z" finished-at="2019-06-23T20:19:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- selenium.xeWebClientAutomation.realEstate.SearchRentAds -->
+    </test> <!-- Search rent adds -->
+    <test name="Verify rent search results" duration-ms="311997" started-at="2019-06-23T20:19:14Z" finished-at="2019-06-23T20:24:26Z">
+      <class name="selenium.xeWebClientAutomation.realEstate.VerifySearchPageResults">
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:selenium.xeWebClientAutomation.realEstate.VerifySearchPageResults@78e67e0a]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="3" started-at="2019-06-23T20:19:14Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2019-06-23T20:19:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:selenium.xeWebClientAutomation.realEstate.VerifySearchPageResults@78e67e0a]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="0" started-at="2019-06-23T20:19:14Z" finished-at="2019-06-23T20:19:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="startTest()[pri:0, instance:selenium.xeWebClientAutomation.realEstate.VerifySearchPageResults@78e67e0a]" name="startTest" is-config="true" duration-ms="15472" started-at="2019-06-23T20:19:14Z" finished-at="2019-06-23T20:19:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="verifySQMResults()[pri:0, instance:selenium.xeWebClientAutomation.realEstate.VerifySearchPageResults@78e67e0a]" name="verifySQMResults" duration-ms="13537" started-at="2019-06-23T20:19:30Z" description="Verify results square footage" finished-at="2019-06-23T20:19:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySQMResults -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:selenium.xeWebClientAutomation.realEstate.VerifySearchPageResults@78e67e0a]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2019-06-23T20:19:30Z" finished-at="2019-06-23T20:19:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void selenium.xeWebClientAutomation.realEstate.VerifySearchPageResults.verifySQMResults() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:selenium.xeWebClientAutomation.realEstate.VerifySearchPageResults@78e67e0a]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2019-06-23T20:19:43Z" finished-at="2019-06-23T20:19:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void selenium.xeWebClientAutomation.realEstate.VerifySearchPageResults.verifySQMResults() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:selenium.xeWebClientAutomation.realEstate.VerifySearchPageResults@78e67e0a]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2019-06-23T20:19:43Z" finished-at="2019-06-23T20:19:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void selenium.xeWebClientAutomation.realEstate.VerifySearchPageResults.verifyPriceResults() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="verifyPriceResults()[pri:1, instance:selenium.xeWebClientAutomation.realEstate.VerifySearchPageResults@78e67e0a]" name="verifyPriceResults" duration-ms="13751" started-at="2019-06-23T20:19:43Z" description="Verify results price" finished-at="2019-06-23T20:19:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPriceResults -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:selenium.xeWebClientAutomation.realEstate.VerifySearchPageResults@78e67e0a]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2019-06-23T20:19:57Z" finished-at="2019-06-23T20:19:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void selenium.xeWebClientAutomation.realEstate.VerifySearchPageResults.verifyPriceResults() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="verifyNumberOfPhotos()[pri:2, instance:selenium.xeWebClientAutomation.realEstate.VerifySearchPageResults@78e67e0a]" name="verifyNumberOfPhotos" duration-ms="31417" started-at="2019-06-23T20:19:57Z" description="Verify ads number of photos" finished-at="2019-06-23T20:20:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNumberOfPhotos -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:selenium.xeWebClientAutomation.realEstate.VerifySearchPageResults@78e67e0a]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2019-06-23T20:19:57Z" finished-at="2019-06-23T20:19:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void selenium.xeWebClientAutomation.realEstate.VerifySearchPageResults.verifyNumberOfPhotos() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:selenium.xeWebClientAutomation.realEstate.VerifySearchPageResults@78e67e0a]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2019-06-23T20:20:28Z" finished-at="2019-06-23T20:20:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void selenium.xeWebClientAutomation.realEstate.VerifySearchPageResults.verifyNumberOfPhotos() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:selenium.xeWebClientAutomation.realEstate.VerifySearchPageResults@78e67e0a]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2019-06-23T20:20:28Z" finished-at="2019-06-23T20:20:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void selenium.xeWebClientAutomation.realEstate.VerifySearchPageResults.verifyDescPriceSorting() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="verifyDescPriceSorting()[pri:3, instance:selenium.xeWebClientAutomation.realEstate.VerifySearchPageResults@78e67e0a]" name="verifyDescPriceSorting" duration-ms="22015" started-at="2019-06-23T20:20:28Z" description="Verify descending price sorting" finished-at="2019-06-23T20:20:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDescPriceSorting -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:selenium.xeWebClientAutomation.realEstate.VerifySearchPageResults@78e67e0a]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2019-06-23T20:20:50Z" finished-at="2019-06-23T20:20:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void selenium.xeWebClientAutomation.realEstate.VerifySearchPageResults.verifyDescPriceSorting() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:selenium.xeWebClientAutomation.realEstate.VerifySearchPageResults@78e67e0a]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2019-06-23T20:20:50Z" finished-at="2019-06-23T20:20:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void selenium.xeWebClientAutomation.realEstate.VerifySearchPageResults.verifyPlusAds() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="verifyPlusAds()[pri:4, instance:selenium.xeWebClientAutomation.realEstate.VerifySearchPageResults@78e67e0a]" name="verifyPlusAds" duration-ms="45010" started-at="2019-06-23T20:20:50Z" description="Verify Plus ads appear first" finished-at="2019-06-23T20:21:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPlusAds -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:selenium.xeWebClientAutomation.realEstate.VerifySearchPageResults@78e67e0a]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2019-06-23T20:21:35Z" finished-at="2019-06-23T20:21:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void selenium.xeWebClientAutomation.realEstate.VerifySearchPageResults.verifyPlusAds() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:selenium.xeWebClientAutomation.realEstate.VerifySearchPageResults@78e67e0a]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2019-06-23T20:21:35Z" finished-at="2019-06-23T20:21:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void selenium.xeWebClientAutomation.realEstate.VerifySearchPageResults.verifyPhoneButton() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="verifyPhoneButton()[pri:5, instance:selenium.xeWebClientAutomation.realEstate.VerifySearchPageResults@78e67e0a]" name="verifyPhoneButton" duration-ms="169867" started-at="2019-06-23T20:21:35Z" description="Verify telephone button instead of number" finished-at="2019-06-23T20:24:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPhoneButton -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:selenium.xeWebClientAutomation.realEstate.VerifySearchPageResults@78e67e0a]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2019-06-23T20:24:25Z" finished-at="2019-06-23T20:24:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void selenium.xeWebClientAutomation.realEstate.VerifySearchPageResults.verifyPhoneButton() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:selenium.xeWebClientAutomation.realEstate.VerifySearchPageResults@78e67e0a]" name="endTest" is-config="true" duration-ms="908" started-at="2019-06-23T20:24:25Z" finished-at="2019-06-23T20:24:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:selenium.xeWebClientAutomation.realEstate.VerifySearchPageResults@78e67e0a]" name="springTestContextAfterTestClass" is-config="true" duration-ms="1" started-at="2019-06-23T20:24:26Z" finished-at="2019-06-23T20:24:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- selenium.xeWebClientAutomation.realEstate.VerifySearchPageResults -->
+    </test> <!-- Verify rent search results -->
+  </suite> <!-- XE Challenge -->
+</testng-results>
